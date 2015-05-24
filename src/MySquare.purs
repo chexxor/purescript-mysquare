@@ -1,5 +1,7 @@
 module MySquare where
 
+import MyExponent
+
 square :: Number -> Number
-square i = i*i
+square i = exp i 2
 
